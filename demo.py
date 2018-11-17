@@ -35,9 +35,8 @@ net.eval()
 net.to(device)
 
 #  Read image and click the points
-image = np.array(Image.open('ims/0nm-8rpm-1_00.jpg'))
-# image = np.array(Image.open('ims/0nm-8rpm-1_34.jpg'))
-# image = np.array(Image.open('ims/0nm-8rpm-1_35.jpg'))
+image = np.array(Image.open('ims/0nm-8rpm-1_00.tif'))
+
 plt.ion()
 plt.axis('off')
 plt.imshow(image)
